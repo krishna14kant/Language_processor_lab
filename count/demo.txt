@@ -1,0 +1,1 @@
+A text file is a type of digital, non-executable file that contains letters, numbers, symbols and/or a combination. It enables the creation and storage of text without any special formatting. Text files are also known as flat files or ASCII files.
