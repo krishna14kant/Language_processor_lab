@@ -1,0 +1,19 @@
+global main 
+extern test
+section data
+X dd 10,20,40,5,7,9,53,8,11,13
+sum dd 0,10
+section text
+MVI I, X
+MVI B, 0
+MVI C, 0
+L1:		LOADI
+		ADD C
+		MOV C ,A
+		INC B
+		CMP B, 10
+		JE L2
+		ADDI 4
+		JMP L1
+L2:		STORE sum
+		STOP
