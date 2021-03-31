@@ -1,5 +1,5 @@
 # Two Pass Assembler
-This project was created for System Software
+This project was created for Network Lab
 
 ## Pass 1
 ### Input :
